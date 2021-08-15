@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+section.section {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.header {
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.2;
+    flex: 1;
+}
+
+img.coffee {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.tasks {
+    flex: 1;
+    margin: 20px 0 5px 0;
+}
+
+.task {
+    display: flex;
+    background: #f1f1f1;
+    border-radius: 8px;
+    padding: 15px 20px 15px 80px;
+    width: 500px;
+    min-height: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #4f4f4f;
+    font-weight: 500;
+}
+
+form.add input {
+    border: 2px solid #dfdfdf;
+    border-radius: 8px;
+    padding: 15px 20px;
+    width: 500px;
+    min-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: #4f4f4f;
+    font-weight: 500;
+}
+
+form.add input::placeholder{
+    color: #afafaf;
+}
+
+.task p {
+    flex: 9;
+}
+
+.task form.x {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex: 1;
+    transform: translateX(10px);
+}
+
+form.x button {
+    border: none;
+}
+
+form.x button i {
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+    color: #4f4f4f;
+}
